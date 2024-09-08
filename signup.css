@@ -1,0 +1,144 @@
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(10px);
+}
+@media (max-aspect-ratio: 16/9){
+    .video{
+        width: auto;
+        height: 100%;
+    }
+}
+.child{
+    background-color: rgba(255, 255, 255, 0.462);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    height: 600px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.left{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 600px;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+
+}
+.right{
+
+    height: 100%;
+    width: 600px;
+    margin-left: 600px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px ;
+}
+.mandala{
+    position: absolute;
+    margin-top: 30px;
+    opacity: 20px;
+    margin-left: 40px;
+    height: 90%;
+    width: 530px;
+    border-radius: 50px;
+}
+.pin1{
+    background-color: rgba(254, 0, 0, 0.5);
+    height: 40px;
+    width: 20px;
+    transform: rotate(-55deg);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+}
+.signup{
+    /* background-color: blanchedalmond; */
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+.username{
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+.username:hover{
+    box-shadow: rgba(240, 18, 18, 0.64) 0px 3px 8px;
+    transition: 0.3s;
+}
+.password{
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+.password:hover{
+    box-shadow: rgba(240, 18, 18, 0.64) 0px 3px 8px;
+    transition: 0.3s;
+    border-style: none;
+}
+.confirm-pass{
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+.confirm-pass:hover{
+    box-shadow: rgba(240, 18, 18, 0.64) 0px 3px 8px;
+    transition: 0.3s;
+    border-style: none;
+}
+.role{
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+.role:hover{
+    box-shadow: rgba(240, 18, 18, 0.64) 0px 3px 8px;
+    transition: 0.3s;
+    border-style: none;
+}
+.pin2{
+    background-color: rgba(165, 0, 0, 0);
+    height: 11px;
+    width: 11px;
+    border: rgb(255, 255, 255) solid 3px;
+    position: absolute;
+    transform: rotate(-55deg);
+    margin-left: 5px;
+    border-radius: 100%;
+    margin-top: 21px;
+    margin-left: 13px;
+}
+.sign{
+    margin-top: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    border-style: none;
+    background-color: rgba(2, 2, 2, 0.553);
+    margin-left: 150px;
+    color: white;
+}
+.sign:hover{
+    box-shadow: rgba(240, 18, 18, 0.64) 0px 3px 8px;
+    transition: 0.3s;
+    border-style: none;
+}
+
+
+
